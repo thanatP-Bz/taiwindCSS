@@ -3,6 +3,11 @@ module.exports = {
   presets: [],
   darkMode: "media", // or 'class'
   theme: {
+    extends: {
+      backgroundImage: {
+        "hero-pattern": "url(./src/img/birthday.svg)",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
