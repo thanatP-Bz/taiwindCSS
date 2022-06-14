@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
-  <body class="bg-slate-200">
+  <body class="bg-slate-50">
     <!-- navbar -->
     <div class="relative container mx-auto pt-6 px-12">
       <!-- container -->
@@ -72,10 +79,8 @@
         class="container flex flex-col px-12 mx-auto pt-10 space-y-0 space-x-6 md:flex-row md:mt-10"
       >
         <div class="flex flex-col mb-10 md:w-1/2 pt-2 items-center">
-          <div class="space-y-12 py-6">
-            <h1
-              class="max-w-md text-4xl font-bold text-center md:text-3xl md:text-left md:justify-center"
-            >
+          <div class="space-y-12 py-6 flex flex-col items-center">
+            <h1 class="text-4xl font-bold text-center md:text-3xl md:text-left">
               Welcome to the our website
             </h1>
             <p class="text-md md:text-left text-center max-w-md">
@@ -83,6 +88,13 @@
               aliquam suscipit soluta dolorum ipsum! Fugit nihil cumque ipsum
               consectetur eligendi!
             </p>
+            <div class="">
+              <img
+                class="w-4/5 ml-16"
+                src="../src/img/support.svg.svg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
 
@@ -229,7 +241,7 @@
         class="container flex items-center mx-auto pt-14 px-10 min-h-full flex-col md:flex-row"
       >
         <div
-          class="py-12 px-10 space-y-6 bg-gradient-to-r from-red-400 to-pink-300 rounded-md flex flex-col md:flex-row md:justify-center items-center"
+          class="py-12 px-10 space-y-6 bg-gradient-to-r from-red-300 to-pink-400 rounded-md flex flex-col md:flex-row md:justify-center items-center"
         >
           <div class="flex flex-col items-center md:items-start">
             <h2 class="font-bold text-2xl pb-3 text-white">Next Event</h2>
@@ -243,6 +255,41 @@
           <div class="flex justify-center items-center md:items-start">
             <img class="w-3/4" src="../src/img/birthday.svg" alt="" />
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="miscellaneous" class="py-5">
+      <div class="container mx-auto pt-14 px-10 grid grid-cols-4">
+        <div class="flex items-center flex-col p-7">
+          <i class="fa-solid fa-heart text-5xl pb-10 text-red-400"></i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            consequatur.
+          </p>
+        </div>
+        <div class="flex items-center flex-col p-7">
+          <i class="fa-solid fa-child-reaching text-5xl pb-10 text-red-400"></i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            consequatur.
+          </p>
+        </div>
+        <div class="flex items-center flex-col p-7">
+          <i class="fa-solid fa-handshake text-5xl pb-10 text-red-400"></i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            consequatur.
+          </p>
+        </div>
+        <div class="flex items-center flex-col p-7">
+          <i
+            class="fa-solid fa-house-chimney-medical text-5xl pb-10 text-red-400"
+          ></i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            consequatur.
+          </p>
         </div>
       </div>
     </section>
